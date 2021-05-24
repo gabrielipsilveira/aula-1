@@ -24,5 +24,5 @@ git commit -m "Aqui vai o comentario da sua modificação"
 ```
 -- Envia as alterações para  repositorio de origem e branch especificada..
 ```sh
-git push -u origem master
+git push -u origen master
 ```
