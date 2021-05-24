@@ -6,23 +6,23 @@ Aprendendo a utilizar o github
 - Configurar vscode para utilizar o github.
 - Criar repositório no github.
 - Enviar dados para o repositório.
--- inicia o repositório local.
+- inicia o repositório local.
 ```sh
 git init
 ```
--- Adicionar link do repositorio remoto a uma variavel de origem local.
+- Adicionar link do repositorio remoto a uma variavel de origem local.
 ```sh
 git remote add origin https://github.com/wesleycbl/aula-1.git 
 ```
--- adiciona os arquivos alterados ao repositório local.
+- adiciona os arquivos alterados ao repositório local.
 ```sh
 git add .
 ```
--- Finaliza as alterações e prepara para ser enviada.
+- Finaliza as alterações e prepara para ser enviada.
 ```sh
 git commit -m "Aqui vai o comentario da sua modificação"
 ```
--- Envia as alterações para  repositorio de origem e branch especificada..
+- Envia as alterações para  repositorio de origem e branch especificada..
 ```sh
 git push -u origin master
 ```
