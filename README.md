@@ -6,13 +6,13 @@ Aprendendo a utilizar o github
 - Configurar vscode para utilizar o github.
 - Criar repositório no github.
 - Enviar dados para o repositório.
--- Adicionar link do repositorio remoto a uma variavel de origem local.
-```sh
-git remote add origin https://github.com/wesleycbl/aula-1.git 
-```
 -- inicia o repositório local.
 ```sh
 git init
+```
+-- Adicionar link do repositorio remoto a uma variavel de origem local.
+```sh
+git remote add origin https://github.com/wesleycbl/aula-1.git 
 ```
 -- adiciona os arquivos alterados ao repositório local.
 ```sh
